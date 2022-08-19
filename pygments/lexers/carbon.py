@@ -1,3 +1,13 @@
+"""
+    pygments.lexers.carbon
+    ~~~~~~~~~~~~~~~~~~~~~~
+
+    Lexer for the Carbon language.
+
+    :copyright: Copyright 2006-2022 by the Pygments team, see AUTHORS. Carbon lexer (c) 2022 Andrei Borovsky 
+    :license: BSD, see LICENSE for details.
+"""
+
 import re
 
 from pygments.lexer import RegexLexer, include, bygroups, using, \
@@ -9,7 +19,7 @@ from pygments.token import Text, Comment, Operator, Keyword, Name, String, \
 
 class CarbonLexer(RegexLexer):
     """
-    For Boo source code.
+    Carbon Language
     """
 
     name = 'Carbon'
